@@ -14,3 +14,10 @@ function revealOnScroll() {
 
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
+
+// Auto update footer year if needed
+const copyright = document.querySelector(".copyright");
+if (copyright) {
+  const year = new Date().getFullYear();
+  copyright.textContent = `© ${year} Chetan Septa. All rights reserved.`;
+}
