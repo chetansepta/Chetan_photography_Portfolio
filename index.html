@@ -1,101 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chetan Portfolio</title>
+    <title>Chetan Septa | Photography Portfolio</title>
+    <meta
+      name="description"
+      content="Chetan Septa Photography Portfolio - Photographer, Videographer, Designer and Editor from Indore."
+    />
     <link rel="stylesheet" href="style.css" />
     <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
     <!-- SIDE LABEL -->
-    <div class="side-label">PORTFOLIO 2026</div>
+    <div class="side-label">CHETAN SEPTA • PORTFOLIO 2026</div>
 
     <!-- HEADER -->
-    <header class="top-bar">
-      <div class="dot"></div>
+    <header class="header">
+      <div class="container navbar">
+        <a href="#" class="logo">Chetan<span>.</span></a>
+
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Skills</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero container">
-      <div class="hero-left">
-        <p class="tag">Creative Visual</p>
+    <section class="hero container" id="home">
+      <div class="hero-left reveal">
+        <p class="tag">Creative Visual Artist</p>
+
         <h1>
-          <span>PORTO</span><br />
-          <span>FOLIO<span class="yellow-dot">.</span></span>
+          Capturing <span>Moments</span><br />
+          Creating <span>Stories</span><span class="yellow-dot">.</span>
         </h1>
 
-        <div class="small-icons">
-          <span>📷</span>
-          <span>✏️</span>
-          <span>🎨</span>
+        <p class="hero-text">
+          Hi, I’m <strong>Chetan Septa</strong> — a passionate photographer,
+          videographer, designer, and editor from Indore. I love turning simple
+          frames into meaningful visuals through creativity, composition, and
+          storytelling.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#work" class="btn btn-primary">View My Work</a>
+          <a
+            href="https://www.instagram.com/capturexchetan"
+            target="_blank"
+            class="btn btn-outline"
+            >Instagram</a
+          >
         </div>
 
-        <div class="name-box">
-          <h3>Chetan Septa(Sirvi)</h3>
-          <p>Photographer • Designer • Editor</p>
+        <div class="hero-stats">
+          <div class="stat-box">
+            <h3>3+</h3>
+            <p>College Events Covered</p>
+          </div>
+          <div class="stat-box">
+            <h3>4</h3>
+            <p>Creative Skills</p>
+          </div>
+          <div class="stat-box">
+            <h3>100%</h3>
+            <p>Learning Mindset</p>
+          </div>
         </div>
       </div>
 
-      <div class="hero-right">
+      <div class="hero-right reveal">
         <div class="circle-outline"></div>
         <div class="yellow-shape"></div>
-        <!-- Change this image with your own -->
         <img
           src="PNGs and Videos/Profile1.jpg"
-          alt="Profile Photo"
+          alt="Chetan Septa Profile Photo"
           class="hero-img"
         />
       </div>
     </section>
 
     <!-- ABOUT SECTION -->
-    <section class="about container">
+    <section class="about container" id="about">
       <div class="section-top">
-        <h2>About</h2>
-        <button class="circle-btn">→</button>
+        <h2>About Me</h2>
+        <button class="circle-btn" aria-label="about section button">→</button>
       </div>
 
       <div class="about-grid">
-        <div class="about-image-box">
-          <!-- Change this image with your own -->
+        <div class="about-image-box reveal">
           <img
             src="PNGs and Videos/Profile2.jpg"
-            alt="About Photo"
+            alt="About Chetan Septa"
             class="about-img"
           />
         </div>
 
-        <div class="about-content">
+        <div class="about-content reveal">
           <h3><span class="yellow-quote">“</span> HELLO.</h3>
+
           <p>
-            I am <strong>Chetan Septa</strong>, a passionate creative person who
-            loves photography, graphic design, videography, and editing. I enjoy
-            making attractive visuals and telling stories through creative work.
+            I am <strong>Chetan Septa</strong>, a creative learner who enjoys
+            photography, videography, graphic design, and editing. I love making
+            visuals that look attractive and also tell a story.
           </p>
+
           <p>
-            I like exploring new ideas and improving my skills in both design
-            and media. My goal is to create modern, clean, and visually strong
-            content.
+            I have covered college events and explored how lighting,
+            composition, timing, and editing can make every shot feel more
+            powerful. My goal is to keep improving and build work that feels
+            modern, clean, and memorable.
           </p>
 
           <div class="info-columns">
-            <div>
+            <div class="info-card">
               <h4>Education</h4>
               <p><strong>2023 - Present</strong></p>
-              <p>B Tech / Medicaps University</p>
+              <p>B.Tech | Medi-Caps University</p>
             </div>
 
-            <div>
-              <h4>Software Skill</h4>
+            <div class="info-card">
+              <h4>Software Skills</h4>
               <div class="software-skill">
-                <span>Ps</span>
-                <!-- <span>Ai</span>
-              <span>Pr</span> -->
-                <span>Lr</span>
+                <span>Photoshop</span>
+                <span>Lightroom</span>
                 <span>Canva</span>
                 <span>CapCut</span>
               </div>
@@ -103,136 +138,190 @@
           </div>
 
           <div class="experience">
-            <h4>Working Experience</h4>
+            <h4>Experience</h4>
             <ul>
               <li>Photography Head - College Events</li>
-              <li>Freelance Photo & Video Editor</li>
+              <li>Freelance Photo & Video Editing Practice</li>
+              <li>Creative Content & Visual Design Learning</li>
             </ul>
           </div>
         </div>
 
-        <aside class="contact-card">
+        <aside class="contact-card reveal">
           <div class="qr-box">
-            <!-- Change QR image if needed -->
             <img src="PNGs and Videos/QR.png" alt="QR Code" />
           </div>
-          <h4>Let's Work Together :</h4>
+
+          <h4>Let’s Work Together</h4>
+
           <ul>
-            <li>Email: septachetan990@gmail.com</li>
-            <li>Phone: +91 9589136044</li>
-            <li>Instagram: @capturexchetan</li>
-            <li>Location: Indore, India</li>
+            <li><i class="fa-solid fa-envelope"></i> septachetan990@gmail.com</li>
+            <li><i class="fa-solid fa-phone"></i> +91 9589136044</li>
+            <li><i class="fa-brands fa-instagram"></i> @capturexchetan</li>
+            <li><i class="fa-solid fa-location-dot"></i> Indore, India</li>
           </ul>
+
+          <a href="mailto:septachetan990@gmail.com" class="card-btn"
+            >Hire / Contact Me</a
+          >
         </aside>
       </div>
     </section>
 
-    <!-- SERVICES / TABLE OF CONTENT -->
-    <section class="services container">
+    <!-- SERVICES -->
+    <section class="services container" id="services">
       <div class="section-top">
-        <h2>Table Of Content</h2>
-        <button class="circle-btn">→</button>
+        <h2>What I Do</h2>
+        <button class="circle-btn" aria-label="services section button">→</button>
       </div>
 
-      <div class="services-heading">
-        <h3><span class="yellow-quote">“</span> TABLE OF CONTENT.</h3>
+      <div class="services-heading reveal">
+        <h3><span class="yellow-quote">“</span> MY CREATIVE SKILLS.</h3>
       </div>
 
       <div class="service-cards">
         <div class="card reveal">
-          <div class="icon">🖌️</div>
+          <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
           <h4>Graphic Design</h4>
+          <p>Posters, layouts, social visuals and clean creative designs.</p>
         </div>
 
         <div class="card reveal">
-          <div class="icon">📸</div>
-          <h4>Photographer</h4>
+          <div class="icon"><i class="fa-solid fa-camera"></i></div>
+          <h4>Photography</h4>
+          <p>Event moments, portraits and creative frame composition.</p>
         </div>
 
         <div class="card reveal">
-          <div class="icon">🎥</div>
-          <h4>Videographer</h4>
+          <div class="icon"><i class="fa-solid fa-video"></i></div>
+          <h4>Videography</h4>
+          <p>Simple cinematic clips, reels and visual storytelling.</p>
         </div>
 
         <div class="card reveal">
-          <div class="icon">🎬</div>
-          <h4>Video & Photo Editor</h4>
+          <div class="icon"><i class="fa-solid fa-film"></i></div>
+          <h4>Editing</h4>
+          <p>Photo enhancement, reel editing and polished visual output.</p>
         </div>
       </div>
     </section>
 
-    <!-- EXTRA GALLERY SECTION -->
-
-    <section class="gallery container">
+    <!-- GALLERY -->
+    <section class="gallery container" id="work">
       <div class="section-top">
         <h2>My Work</h2>
+        <button class="circle-btn" aria-label="work section button">→</button>
+      </div>
+
+      <div class="gallery-intro reveal">
+        <p>
+          A few selected video works that reflect my creative style, editing
+          sense and event coverage practice.
+        </p>
       </div>
 
       <div class="gallery-grid">
-        <div class="work-card">
+        <div class="work-card reveal">
           <video
             src="PNGs and Videos/Work1.mp4"
-            autoplay
             muted
             controls
-            class="reveal"
+            playsinline
+            preload="metadata"
           ></video>
+          <div class="work-overlay">
+            <h4>Creative Reel 01</h4>
+          </div>
         </div>
 
-        <div class="work-card">
+        <div class="work-card reveal">
           <video
             src="PNGs and Videos/Work2.mp4"
-            autoplay
             muted
             controls
-            class="reveal"
+            playsinline
+            preload="metadata"
           ></video>
+          <div class="work-overlay">
+            <h4>Creative Reel 02</h4>
+          </div>
         </div>
 
-        <div class="work-card">
+        <div class="work-card reveal">
           <video
             src="PNGs and Videos/Work3.mp4"
-            autoplay
             muted
             controls
-            class="reveal"
+            playsinline
+            preload="metadata"
           ></video>
+          <div class="work-overlay">
+            <h4>Creative Reel 03</h4>
+          </div>
         </div>
 
-        <div class="work-card">
+        <div class="work-card reveal">
           <video
             src="PNGs and Videos/Work4.mp4"
-            autoplay
             muted
             controls
-            class="reveal"
+            playsinline
+            preload="metadata"
           ></video>
+          <div class="work-overlay">
+            <h4>Creative Reel 04</h4>
+          </div>
         </div>
       </div>
     </section>
-<footer class="footer">
-  <h3>Contact</h3>
 
-  <div class="footer-contact">
-    <a href="mailto:septachetan990@gmail.com">
-      <i class="fa-solid fa-envelope"></i>
-      <span>septachetan990@gmail.com</span>
-    </a>
+    <!-- CTA -->
+    <section class="cta container reveal">
+      <div class="cta-box">
+        <h2>Let’s create something visually powerful together.</h2>
+        <p>
+          I’m always ready to learn, collaborate, and build better creative
+          work.
+        </p>
+        <a href="mailto:septachetan990@gmail.com" class="btn btn-primary"
+          >Send Email</a
+        >
+      </div>
+    </section>
 
-    <a href="https://www.instagram.com/capturexchetan" target="_blank">
-      <i class="fa-brands fa-instagram"></i>
-      <span>@capturexchetan</span>
-    </a>
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <p class="footer-text">
+          You can reach me through email, Instagram, or LinkedIn.
+        </p>
 
-    <a
-      href="https://www.linkedin.com/in/chetan-septa-46778a373/"
-      target="_blank"
-    >
-      <i class="fa-brands fa-linkedin-in"></i>
-      <span>Chetan Septa</span>
-    </a>
-  </div>
-</footer>
+        <div class="footer-contact">
+          <a href="mailto:septachetan990@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>septachetan990@gmail.com</span>
+          </a>
+
+          <a href="https://www.instagram.com/capturexchetan" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            <span>@capturexchetan</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/chetan-septa-46778a373/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>Chetan Septa</span>
+          </a>
+        </div>
+
+        <p class="copyright">
+          © 2026 Chetan Septa. All rights reserved.
+        </p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
