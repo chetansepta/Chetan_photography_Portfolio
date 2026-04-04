@@ -383,6 +383,20 @@ a {
   font-size: 13px;
 }
 
+.technical-skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.technical-skill span {
+  background: var(--dark);
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
 .experience ul,
 .contact-card ul {
   list-style: none;
